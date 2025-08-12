@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { doc, onSnapshot, updateDoc } from "firebase/firestore";
-import { db, serverTimestamp } from "@/firebase";
+import { db, serverTimestamp } from "../firebase";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 
